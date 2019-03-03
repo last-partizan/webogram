@@ -23,8 +23,6 @@
   font-weight: bold;
   padding: 16px 19px;
   color: #b9cfe3;
-  font-size: 13px;
-  line-height: 16px;
 }
 .dropdown.open .tg_head_btn,
 .tg_head_btn:hover {
@@ -40,7 +38,6 @@
   color: #fff;
   padding: 17px 20px 15px 22px;
   display: block;
-  font-size: 14px;
   line-height: 16px;
   vertical-align: top;
 }
@@ -156,8 +153,7 @@
   z-index: 4;
 }
 .tg_head_logo_dropdown .dropdown-menu > li > a {
-  font-size: 12px;
-  line-height: 21px;
+  line-height: 2;
   padding: 11px 19px 10px 21px;
   color: #42749b;
 }
@@ -244,7 +240,6 @@
 .tg_head_connecting_text {
   color: #b9cfe3;
   padding: 14px 15px;
-  font-size: 13px;
   display: block;
   line-height: 20px;
   float: left;
@@ -281,8 +276,7 @@
   right: 0;
 }
 .tg_head_peer_dropdown .dropdown-menu > li > a {
-  font-size: 13px;
-  line-height: 15px;
+  line-height: 1.2;
   padding: 11px 18px 11px 18px;
   color: #52719a;
 }
@@ -323,7 +317,6 @@
 .tg_head_peer_media {
   padding: 14px 19px;
   color: #fff;
-  font-size: 13px;
   line-height: 20px;
   float: left;
   font-weight: bold;
@@ -523,7 +516,7 @@
   overflow: hidden;
 }
 .footer_wrap {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
   color: #9cacb9;
   line-height: 40px;
@@ -568,6 +561,8 @@ a.footer_link.active:active {
 }
 .im_dialogs_scrollable_wrap {
   padding: 0 7px 0 0;
+}
+body:not(.non_osx) .im_dialogs_scrollable_wrap {
   /* Hardware acceleration in Safari */
   -webkit-transform: translateZ(0);
   -webkit-perspective: 1000;
@@ -687,7 +682,7 @@ a.footer_link.active:active {
   -webkit-user-select: none;
 }
 .im_history_typing {
-  font-size: 11px;
+  font-size: 12px;
   color: #999;
   max-width: 556px;
   margin: 0 auto;
@@ -1570,7 +1565,6 @@ a.im_panel_peer_photo .peer_initials {
   padding-top: 2px;
 }
 .settings_modal_language_select {
-  font-size: 12px;
   height: 21px;
   line-height: 21px;
   padding: 0;
@@ -1903,7 +1897,6 @@ div.im_dialog_photo .peer_initials {
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
-  font-size: 13px;
   font-weight: bold;
   line-height: 16px;
   padding: 24px 0;
@@ -1931,7 +1924,6 @@ a.media_modal_author_photo {
   margin: 1px 10px 1px 0;
 }
 div.media_modal_author_name {
-  font-size: 13px;
   margin-top: 1px;
   overflow: hidden;
   white-space: nowrap;
@@ -1939,7 +1931,7 @@ div.media_modal_author_name {
 }
 .media_modal_date,
 a.media_modal_date:hover {
-  font-size: 11px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
 }
 div.media_modal_date {
