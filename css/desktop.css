@@ -521,9 +521,6 @@
   color: #9cacb9;
   line-height: 40px;
 }
-.footer_empty {
-  height: 23px;
-}
 .footer_brand {
   color: #9cacb9;
   font-weight: bold;
@@ -854,7 +851,7 @@ body:not(.non_osx) .im_dialogs_scrollable_wrap {
     position: absolute;
     width: 26px;
     height: 26px;
-    margin: 9px 0 0 -59px;
+    margin: 9px 0 0 -44px;
     display: block;
     background-image: url(../img/icons/IconsetW.png);
     background-repeat: no-repeat;
@@ -982,11 +979,11 @@ a.peer_select_modal_share_link {
   margin-left: 52px;
 }
 .im_send_panel_wrap {
-  max-width: 554px;
+  max-width: 640px;
   padding-bottom: 21px;
 }
 .im_send_form {
-  max-width: 382px;
+  max-width: 468px;
   left: 70px;
   right: 72px;
 }
@@ -1623,7 +1620,7 @@ a.im_panel_peer_photo .peer_initials {
   background: #f2f6fa;
 }
 .im_message_wrap {
-  max-width: 560px;
+  max-width: 646px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
   position: static;

@@ -1166,7 +1166,7 @@ button.toast-close-button{padding:0;cursor:pointer;background:0 0;border:0;-webk
 :not(.no-enter)#toast-container>div.ng-enter,:not(.no-leave)#toast-container>div.ng-leave{-webkit-transition:200ms cubic-bezier(.25,.25,.75,.75) all;-moz-transition:200ms cubic-bezier(.25,.25,.75,.75) all;-ms-transition:200ms cubic-bezier(.25,.25,.75,.75) all;-o-transition:200ms cubic-bezier(.25,.25,.75,.75) all;transition:200ms cubic-bezier(.25,.25,.75,.75) all}
 :not(.no-enter)#toast-container>div.ng-enter.ng-enter-active,:not(.no-leave)#toast-container>div.ng-leave{opacity:.8}
 :not(.no-enter)#toast-container>div.ng-enter,:not(.no-leave)#toast-container>div.ng-leave.ng-leave-active{opacity:0}
-html{background:#e7ebf0;overflow:visible}
+html{background:#363636;overflow:visible}
 body{color:#000;background:0 0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:14px;line-height:18px;overflow:hidden}
 h1,h2,h3,h4,h5{color:#222}
 .non_osx h4{font-size:17px}
@@ -1424,14 +1424,12 @@ a.im_dialog:hover .im_dialog_date,a.im_dialog_selected .im_dialog_date{color:#91
 .im_message_author_via,.im_message_fwd_via{color:#3a6d99}
 .im_message_author_via:hover,.im_message_fwd_via:hover{text-decoration:none}
 .im_message_author_via:hover .im_message_fwd_author,.im_message_fwd_via:hover .im_message_fwd_author{text-decoration:underline}
-.non_osx .im_message_author_wrap,.non_osx .im_message_fwd_author_wrap{font-size:12px}
 .im_message_author_via{color:#3a6d99;margin-left:5px}
 .im_message_fwd_via{margin-left:0}
-.im_message_author_admin{color:#adadad;margin-left:6px;font-size:12px}
+.im_message_author_admin{color:#adadad;margin-left:6px}
 .im_message_contact_photo,.im_message_from_photo,.im_message_fwd_photo{width:42px;height:42px;border-radius:50%;overflow:hidden}
 .im_message_contact_photo .peer_initials,.im_message_from_photo .peer_initials,.im_message_fwd_photo .peer_initials{line-height:42px}
 a.im_message_contact_photo,a.im_message_from_photo{margin:0 15px 0 0}
-.non_osx .im_message_contact_name{font-size:12px}
 .im_message_contact_name{font-weight:700}
 .im_message_contact_name,.im_message_contact_phone{white-space:nowrap}
 a.im_message_photo_thumb,a.im_message_video_thumb{display:block;overflow:hidden;border-radius:2px}
@@ -1522,7 +1520,7 @@ img.im_message_document_thumb{max-width:100px;max-height:100px;vertical-align:mi
 .tg_down_progress,.tg_up_progress{height:4px;margin:0;padding:0;background:rgba(218,228,234,.5);border:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
 .tg_down_progress .progress-bar,.tg_up_progress .progress-bar{height:4px;line-height:4px;background:#6B9ABD;border-radius:0;overflow:hidden;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
 .im_service_message_wrap{text-align:center}
-.im_bot_intro_message_wrap{max-width:300px;padding:4px 10px;margin:10px auto;color:#000;line-height:1.4;text-align:left;font-size:13px}
+.im_bot_intro_message_wrap{max-width:400px;padding:4px 10px;margin:10px auto;line-height:1.4;text-align:left}
 .im_bot_intro_message_header{font-weight:700;text-align:center}
 .im_bot_intro_message{margin-top:10px}
 .im_service_message{display:block;min-width:10px;padding:4px 7px;line-height:1.4;color:#999;text-align:center;border-radius:10px;margin:5px 0}
