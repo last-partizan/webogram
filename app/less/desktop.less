@@ -2,6 +2,9 @@
 
 /* app desktop css */
 
+@chat_max_width: 640px;
+
+
 .tg_head {
   &_split {
     max-width: 1010px;
@@ -576,14 +579,7 @@
   min-width: 300px;
   margin: 0 auto;
 
-  .box-shadow(0px 1px 0 #dfe5ec);
-
-  border-radius: 0 0 3px 3px;
-
-  border-left: 1px solid #dfe5ec;
-  border-right: 1px solid #dfe5ec;
-  border-bottom: 1px solid #d2dbe3;
-
+  box-shadow: 0px 1px 15px hsla(0,0,0,.2);
   overflow: hidden;
 }
 
@@ -593,10 +589,6 @@
     text-align: center;
     color: #9cacb9;
     line-height: 40px;
-  }
-
-  &_empty {
-    height: 23px;
   }
 
   &_brand {
@@ -789,7 +781,7 @@ a.footer_link.active:active {
   &_typing {
     font-size: @font_size_sm;
     color: #999;
-    max-width: 556px;
+    max-width: @chat_max_width + 2px;
     margin: 0 auto;
     padding: 13px 81px 8px 85px;
 
@@ -991,7 +983,7 @@ a.footer_link.active:active {
       position: absolute;
       width: 26px;
       height: 26px;
-      margin: 9px 0 0 -59px;
+      margin: 9px 0 0 -44px;
       display: block;
 
       .image-2x('../img/icons/IconsetW.png', 42px, 1171px);
@@ -1135,11 +1127,11 @@ a.peer_select_modal_share_link {
 }
 
 .im_send_panel_wrap {
-  max-width: 554px;
+  max-width: @chat_max_width;
   padding-bottom: 21px;
 }
 .im_send_form {
-  max-width: 382px;
+  max-width: @chat_max_width - 172px;
   left: 70px;
   right: 72px;
 }
@@ -1908,7 +1900,7 @@ a.im_panel_peer_photo .peer_initials {
 }
 
 .im_message_wrap {
-  max-width: 560px;
+  max-width: @chat_max_width + 6px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
   position: static;
