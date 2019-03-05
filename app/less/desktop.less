@@ -3,11 +3,12 @@
 /* app desktop css */
 
 @chat_max_width: 640px;
+@app_max_width: 1080px;
 
 
 .tg_head {
   &_split {
-    max-width: 1010px;
+    max-width: @app_max_width;
     margin: 0 auto;
     height: 48px;
     background: #5682a3;
@@ -575,7 +576,7 @@
 
 .im_page_wrap {
   background: #fff;
-  max-width: 1010px;
+  max-width: @app_max_width;
   min-width: 300px;
   margin: 0 auto;
 
@@ -1095,7 +1096,7 @@ a.peer_select_modal_share_link {
   color: #999 !important;
 }
 
-@media (max-height: 600px), (max-width: 1010px) {
+@media (max-height: 600px), (max-width: @app_max_width) {
   .im_page_wrap {
     border-bottom: 0;
     border-radius: 0;
