@@ -4,7 +4,7 @@
    Prepending 'only screen and ' to each media query breaks nested media queries */
 /* app desktop css */
 .tg_head_split {
-  max-width: 1010px;
+  max-width: 1080px;
   margin: 0 auto;
   height: 48px;
   background: #5682a3;
@@ -503,16 +503,10 @@
 }
 .im_page_wrap {
   background: #fff;
-  max-width: 1010px;
+  max-width: 1080px;
   min-width: 300px;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 1px 0 #dfe5ec;
-  -moz-box-shadow: 0px 1px 0 #dfe5ec;
-  box-shadow: 0px 1px 0 #dfe5ec;
-  border-radius: 0 0 3px 3px;
-  border-left: 1px solid #dfe5ec;
-  border-right: 1px solid #dfe5ec;
-  border-bottom: 1px solid #d2dbe3;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 .footer_wrap {
@@ -681,7 +675,7 @@ body:not(.non_osx) .im_dialogs_scrollable_wrap {
 .im_history_typing {
   font-size: 12px;
   color: #999;
-  max-width: 556px;
+  max-width: 642px;
   margin: 0 auto;
   padding: 13px 81px 8px 85px;
 }
@@ -953,7 +947,7 @@ body:not(.non_osx) .im_dialogs_scrollable_wrap {
 a.peer_select_modal_share_link {
   color: #999 !important;
 }
-@media (max-height: 600px), (max-width: 1010px) {
+@media (max-height: 600px), (max-width: 1080px) {
   .im_page_wrap {
     border-bottom: 0;
     border-radius: 0;
