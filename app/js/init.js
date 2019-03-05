@@ -67,12 +67,8 @@
       '<link rel="stylesheet" href="css/' + (Config.Mobile ? 'mobile.css' : 'desktop.css') + '" />'
     )
 
-    // Nightmode CSS injection if found in stored configs
-    if (nightmode) {
-      $('head').append(
-        '<link rel="stylesheet" href="css/dark.css" />'
-      );
-    }
+    // Nightmode class
+    $('head')[nightmode ? 'addClass' : 'removeClass']("th-dark");
 
     if (!locale) {
       locale = (navigator.language || '').toLowerCase()

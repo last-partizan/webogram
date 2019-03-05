@@ -4526,8 +4526,9 @@ angular.module('myApp.controllers', ['myApp.i18n'])
         } else {
           Storage.set({appearance_nightmode: true});
         }
+        $('html')[$scope.appearance.nightmode ? 'addClass' : 'removeClass']("th-dark");
+
         $rootScope.$broadcast('settings_changed');
-        LayoutSwitchService.switchLayout(false);
       }
     })
 
