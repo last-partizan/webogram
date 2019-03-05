@@ -68,7 +68,7 @@
     )
 
     // Nightmode class
-    $('head')[nightmode ? 'addClass' : 'removeClass']("th-dark");
+    $('html')[nightmode ? 'addClass' : 'removeClass']("th-dark");
 
     if (!locale) {
       locale = (navigator.language || '').toLowerCase()
