@@ -1119,6 +1119,28 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 @media print{.visible-print-inline{display:inline!important}}
 @media print{.visible-print-inline-block{display:inline-block!important}}
 @media print{.hidden-print{display:none!important}}
+html.th-dark{background:#232323}
+.th-dark body{color:#eee}
+.th-dark .im_record_bg{background:0 0}
+.th-dark .im_page_wrap{background-color:#292929;border:1px solid #232323;box-shadow:none}
+.th-dark .form-control.no_outline:focus{border-color:#555}
+.th-dark .im_dialogs_search_field{color:inherit;border-color:#555;background-color:#232323}
+.th-dark .im_dialogs_search_field:focus{background-color:#444}
+.th-dark .im_dialog_peer{color:#666}
+.active .th-dark .im_dialog_peer{color:#fff}
+.th-dark .im_message_mymention{background:0 0;color:#fff}
+.th-dark .composer_rich_textarea,.th-dark .composer_textarea{box-shadow:0 1px 0 0 ligthen(background_color,8%)}
+.th-dark .im_dialogs_col_wrap{border-right:2px solid #333}
+.th-dark .im_message_unread_split{background:#555}
+.th-dark .im_dialogs_scrollable_wrap a.im_dialog:hover,.th-dark .im_dialogs_scrollable_wrap a.im_dialog_selected{border-radius:0;background:#343434}
+.th-dark .im_dialogs_scrollable_wrap .active a.im_dialog{background-color:#315e7f}
+.th-dark .im_dialogs_scrollable_wrap .active a.im_dialog:hover,.th-dark .im_dialogs_scrollable_wrap .active a.im_dialog_selected{background-color:#346386}
+.th-dark .im_history_select_active .im_message_outer_wrap:hover,.th-dark .im_message_selected .im_message_outer_wrap{background:#323232}
+.th-dark .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_duration,.th-dark .im_history_select_active .im_message_outer_wrap:hover .im_message_audio_size,.th-dark .im_history_select_active .im_message_outer_wrap:hover .im_message_date,.th-dark .im_history_select_active .im_message_outer_wrap:hover .im_message_document_size,.th-dark .im_history_select_active .im_message_outer_wrap:hover .im_message_fwd_date,.th-dark .im_history_select_active .im_message_outer_wrap:hover .im_message_views_cnt,.th-dark .im_message_selected .im_message_audio_duration,.th-dark .im_message_selected .im_message_audio_size,.th-dark .im_message_selected .im_message_date,.th-dark .im_message_selected .im_message_document_size,.th-dark .im_message_selected .im_message_fwd_date,.th-dark .im_message_selected .im_message_views_cnt{color:#ccc}
+.th-dark .tg_head_split{background:#1f1f1f}
+.th-dark .tg_head_btn{color:#ccc}
+.dropdown.open .th-dark .tg_head_btn,.th-dark .tg_head_btn:hover{color:#ccc;background:#272727}
+.th-dark .footer_wrap{background:#232323}
 html{background:#363636;overflow:visible}
 body{color:#000;background:0 0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:14px;line-height:18px;overflow:hidden}
 h1,h2,h3,h4,h5{color:#222}
