@@ -4,10 +4,10 @@ CACHE:
 favicon.ico
 favicon_unread.ico
 service_worker.js
+js/app.js
 css/app.css
 css/desktop.css
 css/mobile.css
-js/app.js
 nacl/mtproto_crypto.nmf
 nacl/mtproto_crypto.pexe
 img/Manytabs.png
@@ -56,8 +56,6 @@ img/icons/PhotoIcons_2x.png
 img/icons/ProfileIcons.png
 img/icons/ProfileIcons_2x.png
 img/icons/icon.svg
-vendor/closure/long.js
-vendor/cryptoJS/crypto.js
 img/placeholders/DialogListAvatarSystem@2x.png
 img/placeholders/Fave.png
 img/placeholders/GroupAvatar1@2x.png
@@ -76,6 +74,8 @@ img/placeholders/UserAvatar7@2x.png
 img/placeholders/UserAvatar8@2x.png
 img/placeholders/VideoThumbConversation.gif
 img/placeholders/VideoThumbModal.gif
+vendor/closure/long.js
+vendor/cryptoJS/crypto.js
 vendor/jsbn/jsbn_combined.js
 vendor/leemon_bigint/bigint.js
 vendor/recorderjs/encoder_worker.js
@@ -93,4 +93,4 @@ http://*
 https://*
 *
 
-# hash: 2e6844c394cb0e8b11c90007f2d13d142ff56488a007199fb545da2b7af250ab
+# hash: ab62d130fb1ec94aa424b2dbd7dbd7f93814543982d3e96101e401cbd77bb4bc
