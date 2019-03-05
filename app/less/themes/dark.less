@@ -1,21 +1,41 @@
 /* Dark theme common css */
 
 @background_color: #232323;
-@theme_color: #27ae60;
+@background_color_light: #444;
+@border_color: #555;
+@theme_color: #315e7f;
 @header_color: #1f1f1f;
+@text_color: #eee;
 
 html {
   background: @background_color;
 }
 
 body {
-  color: #898989;
+  color: @text_color;
+}
+
+.im_record_bg {
+  background: none;
 }
 
 .im_page_wrap {
   background-color: #292929;
   border: 1px solid @background_color;
   box-shadow: none;
+}
+
+.form-control.no_outline:focus {
+  border-color: @border_color;
+}
+
+.im_dialogs_search_field {
+  color: inherit;
+  border-color: @border_color;
+  background-color: @background_color;
+  &:focus {
+    background-color: @background_color_light;
+  }
 }
 
 .im_dialog_peer {
