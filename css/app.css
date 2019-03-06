@@ -1188,7 +1188,7 @@ html.th-dark{background:#232323}
 .th-dark .tg_head_btn{color:#ccc}
 .dropdown.open .th-dark .tg_head_btn,.th-dark .tg_head_btn:hover{color:#ccc;background:#272727}
 .th-dark .footer_wrap{background:#232323}
-html{background:#363636;overflow:visible}
+html{background:#a7aeb7;overflow:visible}
 body{color:#000;background:0 0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:14px;line-height:18px;overflow:hidden}
 h1,h2,h3,h4,h5{color:#222}
 .non_osx h4{font-size:17px}
